@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body >
+<script type="text/javascript" src="javascript.js"></script> 
+	
+	<table>
+		<tr>
+			<th colspan="2" style="font-weight: normal;">Введите сумму:</th>
+			<th>KZT(tenge)</th>
+			<th>USD(dollar)</th>
+			<th>EUR(euro)</th>
+		</tr>
+
+		<tr>
+			<td><input type="text" id="amount" name="amount"></td>
+			<td>
+				<select onchange="convertCurrency(this.value)">
+					<option value="" disabled selected>kurs</option>
+					<option value="toKZT">KZT</option>
+					<option value="toUSD">USD</option>
+					<option value="toEUR">EUR</option>
+				</select>
+			</td>
+			
+			<td><input type="text" id="fromKZT" class="color"></td>
+			<td><input type="text" id="fromUSD" class="color"></td>
+			<td><input type="text" id="fromEUR" class="color"></td>
+		</tr>
+	</table>
+</body>
+
+</body>
+</html>

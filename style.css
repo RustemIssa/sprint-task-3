@@ -1,0 +1,13 @@
+table {
+	border: 0.7px solid;
+	border-color: grey;
+ 	height: 100px;
+ 	width: 400px;
+ 	border-radius: 15px;
+ 	padding: 10px;
+ }
+.color {
+	border: 0.7px solid;
+	background: #f2f2f2;
+	
+}
